@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dicoding Submission</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="bio">Biografi</string>
+    <string name="search">Cari</string>
+    <string name="settings">Pengaturan</string>
+    <string name="tab_follower">Pengikut</string>
+    <string name="tab_following">Mengikuti</string>
+
+    <string name="emptyText">Kotak tidak boleh kosong</string>
+    <string name="this_user_doesn_t_have_follower">Pengguna tidak memiliki pengikut</string>
+    <string name="this_user_doesn_t_follow_any_user">Pengguna tidak mengikuti akun manapun</string>
+    <string name="name">Nama</string>
+    <string name="user_is_not_found">Pengguna tidak ditemukan</string>
+
+</resources>
