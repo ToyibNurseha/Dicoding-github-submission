@@ -41,7 +41,6 @@ class FollowerFragment : Fragment() {
         rv_follower.adapter = adapter
         rv_follower.layoutManager =
             LinearLayoutManager(this.context, LinearLayoutManager.VERTICAL, false)
-        rv_follower.isNestedScrollingEnabled = false
         rv_follower.setHasFixedSize(true)
 
         followerViewModel = ViewModelProvider(

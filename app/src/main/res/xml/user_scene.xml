@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition
+        app:constraintSetStart="@layout/activity_user_detail_start"
+        app:constraintSetEnd="@layout/activity_user_detail_end"
+        app:duration="1000">
+        <OnSwipe
+            app:dragDirection="dragUp"
+            app:touchAnchorId="@+id/view_pager_detail"
+            app:touchAnchorSide="top"/>
+    </Transition>
+</MotionScene>

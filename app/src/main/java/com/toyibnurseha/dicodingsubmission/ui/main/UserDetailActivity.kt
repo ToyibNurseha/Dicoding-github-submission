@@ -17,7 +17,6 @@ import com.toyibnurseha.dicodingsubmission.data.UserInfo
 import com.toyibnurseha.dicodingsubmission.data.UserViewModel
 import com.toyibnurseha.dicodingsubmission.ui.base.TabsPagerAdapter
 import kotlinx.android.synthetic.main.activity_user_detail.*
-import kotlinx.android.synthetic.main.app_header.*
 
 class UserDetailActivity : AppCompatActivity() {
 

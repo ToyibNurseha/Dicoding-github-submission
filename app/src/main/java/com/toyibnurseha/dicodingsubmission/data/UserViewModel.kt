@@ -9,9 +9,6 @@ import com.androidnetworking.common.Priority
 import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.JSONArrayRequestListener
 import com.androidnetworking.interfaces.JSONObjectRequestListener
-import com.loopj.android.http.AsyncHttpClient
-import com.loopj.android.http.AsyncHttpResponseHandler
-import cz.msebera.android.httpclient.Header
 import org.json.JSONArray
 import org.json.JSONObject
 import java.lang.Exception

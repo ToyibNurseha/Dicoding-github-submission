@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
-    app:layoutDescription="@xml/user_scene"
-    tools:context=".ui.main.UserDetailActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
@@ -70,11 +66,14 @@
         android:id="@+id/tab_detail"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@android:color/white"
+        android:background="@color/colorPrimaryDark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_bio"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        app:tabIndicator="@android:color/white"
+        app:tabIndicatorColor="@android:color/white"
+        app:tabTextColor="@android:color/white"/>
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager_detail"
@@ -116,4 +115,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.motion.widget.MotionLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
